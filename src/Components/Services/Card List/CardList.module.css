@@ -1,0 +1,11 @@
+.cardListContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 45px;
+    padding-top: 10px;
+}
+@media screen and (max-width: 765px) {
+    .cardListContainer{margin: 0 20px}
+    
+}

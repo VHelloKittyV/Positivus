@@ -1,0 +1,25 @@
+.titleConatainer {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: var(--section-padding-y) 0;
+}
+.title{
+    background-color: var(--color-green);
+    border-radius: var(--border-radius-small);
+    padding: 7px;
+    font-weight: 500;
+}
+.subTitle{
+    width: 580px;
+}
+@media screen and (max-width: 765px) {
+    .titleConatainer{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .subTitle{
+        width: 80%;
+        text-align: center;
+    }
+}

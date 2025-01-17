@@ -1,0 +1,40 @@
+.formOptions {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+input[type="radio"] {
+    display: grid;
+    place-content: center;
+    appearance: none; 
+    width: 28px;
+    height: 28px;
+    border-radius: 50%; 
+    border:1.5px solid var(--color-dark);
+    background-color: var(--color-grey); 
+    transition: border-color 0.3s ease, background-color 0.3s ease; 
+}
+
+input[type="radio"]:checked {
+    border-color: var(--color-dark); 
+}
+
+input[type="radio"]:checked::before {
+    content: "";
+    display: block;
+    width: 14px; 
+    height: 14px;
+    border-radius: 50%; 
+    background-color: var(--color-green); 
+    margin: auto;
+}
+
+
+
+.customLabels{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}

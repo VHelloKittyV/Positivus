@@ -1,0 +1,35 @@
+.teamListContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding-top: 10px;
+    margin-bottom: 40px;
+    
+}
+
+.moreBtn{
+    grid-column-start: 3;
+    justify-self: end;
+}
+@media screen and (max-width: 900px) {
+    .teamListContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px; 
+    }
+
+    
+    .moreBtn{
+        grid-column-start: 2;
+        justify-self: end;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .teamListContainer{
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px;
+    }
+   
+}

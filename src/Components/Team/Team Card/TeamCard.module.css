@@ -1,0 +1,30 @@
+.cardContainer {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-grey);
+    border: var(--border);
+    border-radius: var(--border-radius-large);
+    padding: 35px;
+    box-shadow: var(--shadow);
+}
+.cardProfile{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 28px;
+    gap: 20px;
+    h4{
+        
+        margin: 0;
+    }
+}
+.social{
+    
+    align-self: flex-start;
+}
+.experience{
+    border-top: var(--border);
+    padding-top:28px;
+}

@@ -1,0 +1,107 @@
+@import url(./normolize.css);
+
+:root {
+    --color-dark: #191A23;
+    --color-back: #000000;
+    --color-grey: #F3F3F3;
+    --color-green: #B9FF66;
+    --color-white:#FFFFFF;
+
+    --border: 1px solid var(--color-dark);
+    --border-radius: 14px;
+    --border-radius-small: 7px;
+    --border-radius-large: 48px;
+    --shadow: 0 5px 0 0 var(--color-dark);
+
+    --font-family-base:"Space Grotesk";
+
+    --container-width: 1240px;
+    --container-padding: 20px;
+
+    --section-padding-y: 70px;
+    --input-height: 59px;
+    --button-height: 68px;
+    --transition-duration: 0.5s;
+
+    --desktop: 1240px;
+    --tablet: 1023px;
+    --mobile: 767px;
+}
+body {
+    font-family:  var(--font-family-base);
+    max-width: var(--desktop);
+    margin: 0 auto;
+    /* padding: 0 20px; */
+    /* outline: 1px solid red; */
+}
+
+@font-face {
+    font-family: "Space Grotesk";
+    src: url("./src/fonts/SpaceGrotesk-Regular.woff2") format("woff2");
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Space Grotesk";
+    src: url("./src/fonts/SpaceGrotesk-Medium.woff2") format("woff2");
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+ul,li{list-style: none;}
+a{
+    text-decoration: none;
+    color: var(--color-dark);
+}
+img{
+    width: 100%;
+    display: block;
+}
+button{
+    width: 100%;
+    background-color: var(--color-dark);
+    /* padding: (); */
+    border-radius: var(--border-radius);
+    color: var(--color-white);
+    padding: 20px 35px;
+    cursor: pointer;
+}
+.navButton{
+    background-color: transparent;
+    color: var(--color-back);
+    transition: all 0.5s;
+    &:hover{
+        background-color: var(--color-back);
+        color: white;
+    }
+}
+.footerButton{
+    background-color: var(--color-green);
+    color: var(--color-back);
+    border: none;
+
+}
+input, textarea{
+    font-family:"Space Grotesk",  Arial, Helvetica, sans-serif
+}
+.input{
+    width: 100%;
+    padding: 18px 30px;
+    border-radius: 14px;
+    border: 2px solid var(--color-back);
+}
+.input.footer{
+    color: var(--color-grey);
+    background-color: transparent;
+    border: 2px solid var(--color-white);
+}
+.input.footer::placeholder{
+    color: var(--color-white);
+}
+section{
+    padding-bottom: var(--section-padding-y);
+    
+}
