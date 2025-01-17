@@ -1,8 +1,34 @@
-# React + Vite
+# Project: Figma Layout Implementation on React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple implementation of a user interface based on a **Figma** design using **React**. It was created for educational purposes to practice component development, styling, and working with React.
 
-Currently, two official plugins are available:
+**Figma Source:** [Positivus Landing Page Design](https://www.figma.com/design/xbvFnDP3I69VNrzraMTIhW/Positivus-Landing-Page-Design-(Community)-(Copy)?node-id=423-1034&t=Qg80Lmo6SmH5CdG7-0)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 📖 Project Description
+
+The project demonstrates:
+- Responsive layout implementation.
+- Structuring components in React.
+- Using CSS modules for styling.
+- Dynamic UI state management (e.g., modal windows, navigation menus, etc.).
+
+---
+
+## ⚙️ Tech Stack
+
+This project uses the following technologies:
+- **React** (Vite for building and development)
+- **CSS Modules** for isolated styling
+- **Context API** for application state management
+- **Figma** as the design source
+
+---
+
+## 🚀 How to Run the Project Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
